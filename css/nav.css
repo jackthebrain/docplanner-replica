@@ -37,42 +37,11 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    
     position: fixed;
     top: 0;
     width: 100%;
     height: auto;
     background-color:rgba(255, 255, 255, 0.990);
     z-index: 9;
-}
-#dropdown-elements{
-    position: relative;
-}
-#dropdown-content{
-    list-style: none;
-    background-color: white;
-    box-shadow: 0 5px 10px 0 #d3cfc9 ;
-    display: none;
-    position: static;
-    z-index: 10;
-}
-.dropdown-list{
-    margin: 0;
-    padding: 0;
-}
-  
-#dropdown-elements:hover #dropdown-content{
-    display:block;
-}
-#list-down{
-    list-style: none;
-    padding: 0;
-    text-align: center;
-}
-.dropdown-list:hover{ 
-    background-color: #f6f8f8;
-}
-.dropdown-list{
-    width: 220px;
-    height: 42px;
 }
