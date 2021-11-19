@@ -392,8 +392,8 @@ body{
     width: 250px;
     padding: 14px 18px;
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
     border-radius: 5px;
 }
 #button-end:hover{
@@ -416,6 +416,7 @@ body{
 .dropdown-list{
     margin: 0;
     padding: 0;
+    line-height: 42px;
 }
   
 #dropdown-elements:hover #dropdown-content{
@@ -426,12 +427,18 @@ body{
     padding: 0;
     text-align: center;
 }
-.dropdown-list:hover{ 
-    background-color: #f6f8f8;
+.dropdown-list .bck-down:hover{ 
+    width:100%;
+    height: 100%;
+    background-color:#f6f8f8;
+    color: #00ccb1;
 }
+
+    
 .dropdown-list{
     width: 220px;
     height: 42px;
 }
+/* media-q-ints */
 
 

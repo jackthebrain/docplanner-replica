@@ -29,15 +29,13 @@
     margin: 0 12%;
     padding: 10px 5px;
 }
-.link-nav:hover ,
-.active{
+.link-nav:hover  .active{
    color: #00b39b;
 }
 #nav-content{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    
     position: fixed;
     top: 0;
     width: 100%;
